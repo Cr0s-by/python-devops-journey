@@ -1,0 +1,6 @@
+{
+  "default_cpu": 8,
+  "default_ram": 16,
+  "data_file": "servers.json",
+  "app_name": "Учёт серверов"
+}

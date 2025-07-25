@@ -1,0 +1,10 @@
+[
+    {
+        "name": "db",
+        "ip": "192.66.55.44",
+        "role": "db",
+        "status": "online",
+        "cpu": 8,
+        "ram": 16
+    }
+]

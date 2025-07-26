@@ -21,3 +21,6 @@ logs/
 # ОС
 .DS_Store
 Thumbs.db
+
+# Сгенерированные файлы
+backups/

@@ -6,5 +6,13 @@
         "status": "online",
         "cpu": 8,
         "ram": 16
+    },
+    {
+        "name": "web-1",
+        "ip": "192.44.55.22",
+        "role": "web",
+        "status": "online",
+        "cpu": 8,
+        "ram": 16
     }
 ]

@@ -24,3 +24,7 @@ Thumbs.db
 
 # Сгенерированные файлы
 backups/
+
+# Docker
+.Dockerfile
+docker-compose.yml

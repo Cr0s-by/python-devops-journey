@@ -1,0 +1,39 @@
+# Виртуальные окружения
+venv/
+env/
+ENV/
+.venv/
+
+# Byte-compiled / Python кэш
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*$py.class
+
+# Секреты и конфиги (если появятся)
+.env
+.env.local
+secrets.py
+
+# IDE и редакторы
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Системные файлы
+.DS_Store
+Thumbs.db
+
+# Логи
+logs/
+*.log
+
+# Docker
+.dockerignore
+docker-compose.yml
+
+# Backups
+backups/

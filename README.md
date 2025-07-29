@@ -1,24 +1,40 @@
-## Projects
+# Учёт серверов
 
-- `calculator.py` — калькулятор с меню
-- `servers.py` — учёт серверов (в разработке)
+Консольное приложение на Python для учёта серверов:
+
+- Добавление, удаление, поиск
+- Сохранение в JSON
+- Бэкапы
+- Автоматизация через bash и Docker
+- Тестирование с `pytest`
 
 ## Функции
 
-- `run_server.sh` — bash-скрипт для запуска `servers.py` и создания бэкапов
+- ✅ Добавить/удалить сервер
+- ✅ Поиск по IP, статусу
+- ✅ Сохранение и бэкапы
+- ✅ Bash-скрипт `run_server.sh`
+- ✅ Docker-образ
+- ✅ Тесты на `pytest`
 
-## Docker
+## Как запустить
 
-### Сборка образа
+### 1. Локально
 
 ```bash
-docker build -t servers-app .
+python servers.py
 ```
 
-## Тестирование
+### 2. Через Docker
+
+```
+docker build -t servers-app .
+docker run -it -v ${PWD}:/app servers-app
+```
 
 ### Запуск тестов
 
-```bash
+```
 pytest
+pytest tests/test_servers.py::test_save_and_load -v -s
 ```
